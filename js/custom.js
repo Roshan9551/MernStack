@@ -89,31 +89,31 @@
 // }
 
 
-/* ATM System */
-var totalAmount = 10000;
-var pin = 123;
-var confirmPin;
-var withdrawal;
-var operation = prompt("Enter check for checking balance and withdraw for withdrawing: ");
+// /* ATM System */
+// var totalAmount = 10000;
+// var pin = 123;
+// var confirmPin;
+// var withdrawal;
+// var operation = prompt("Enter check for checking balance and withdraw for withdrawing: ");
 
-if(operation == "check"){
-    alert(`Your remaining amount is: ${totalAmount}`);
-}else if(operation == "withdraw"){
-    confirmPin = parseInt(prompt("Enter your pin: "));
-    if(pin == confirmPin){
-        withdrawal = parseInt(prompt("Enter the amount to be withdrawan: "));
-        if(withdrawal <= totalAmount){
-            totalAmount = totalAmount - withdrawal;
-            alert(`Your remaining amount is: ${totalAmount}`);
-        }else{
-            alert("Insufficient balance.");
-        }
-    }else{
-        alert("Incorrect pin.");
-    }
-}else{
-    alert("Enter valid operation.");
-}
+// if(operation == "check"){
+//     alert(`Your remaining amount is: ${totalAmount}`);
+// }else if(operation == "withdraw"){
+//     confirmPin = parseInt(prompt("Enter your pin: "));
+//     if(pin == confirmPin){
+//         withdrawal = parseInt(prompt("Enter the amount to be withdrawan: "));
+//         if(withdrawal <= totalAmount){
+//             totalAmount = totalAmount - withdrawal;
+//             alert(`Your remaining amount is: ${totalAmount}`);
+//         }else{
+//             alert("Insufficient balance.");
+//         }
+//     }else{
+//         alert("Incorrect pin.");
+//     }
+// }else{
+//     alert("Enter valid operation.");
+// }
 
 
 
@@ -160,4 +160,19 @@ A special symbol.
 //     console.log("Entered character is uppercase");
 // }else if(asciiValue >= 97 && asciiValue <= 122){
 //     console.log("Entered character is lowercase");
+// }
+
+
+
+/* For-of loop => it is used to iterate arrays, strings, or collections. */
+// const arr = [10, 20, 30];
+// for (const num of arr) {
+//   console.log(num);
+// }
+
+
+// /* For-in loop => used to iterate the object with key value pair*/
+// const obj = { a: 1, b: 2, c: 3 };
+// for (const key in obj) {
+//   console.log(key, obj[key]);
 // }
