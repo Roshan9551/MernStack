@@ -45,9 +45,22 @@ Staus list: a. Untracked: (U)
 ##Branches
 1. Create branch
 => git checkout -b branch_name
+
 2. Switch branch
 => git checkout branch_name
+
 3. Deleting branch (for this we should not be on the branch which we want to delete)
 =>git branch -d branch_name
+
 4. Adding some changes(features) to a branch =>(to do this we should be on the branch on which we need to add feature)
-=>
+=>do add, commit
+=> git push origin branch_name
+=> Whenever we add some features on staying on some branch the if we switch the branch then the features will be removed and again stored on switching to that branch
+
+5. Mergin Branches (After doing this the changes will appears in all branches)
+A. Through Command
+ *first check differences (this will show what extras are added to index and other files on staying on feature1 branch apart from main branch)
+  => git diff branch_name
+  *merge
+  => git merge branc_main
+B. Through Github
