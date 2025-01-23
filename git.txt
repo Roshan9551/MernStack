@@ -1,0 +1,43 @@
+# Github notes
+1. Clone command is used to create clone of repository into a local repository.
+syntax: git clone <-some link->
+//show only file name: dir/b
+//display hidden file: dir /a:h
+
+2. Status: tells the status of git
+syntax: git status
+Staus list: a. Untracked: (U)
+            b. Modified: (M)
+            c. Staged: means ready to be committed (ie. we added but didn't committed.)
+            d. Unmodified:
+
+//if you changes something on the readme file the it shows M in file name
+
+//whenever you changes you need to add and commit
+3. Add command: it adds new or changed file in your 
+                working directory to the Git Staging area.
+                syntax: git add <-file name->
+
+4. Commit: it is the record of changed  
+           syntax: git commit -m "some message"
+
+5. Push: upload local repo content to remote repo
+         syntax: git push origin main
+         //here "origin" main default remote repo and "main" means branch
+
+
+//when we create folder through vs code we need to make it git repo first, to make we need to use init
+
+6. Init: used to create a new git repo
+         syntax: git init
+
+//master branch is default branch in github to go out from master branch we need to create main branch
+
+//commands
+git init
+git remote add origin <-link->
+git remote -v (to check/verify remote)
+git branch (to check on which branch we are)
+git branch -M main (to rename branch)
+git push origin main  //we can also use "git push -u origin main" by the help of this we can directly write "git push"
+
