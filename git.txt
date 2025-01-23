@@ -34,10 +34,10 @@ Staus list: a. Untracked: (U)
 //master branch is default branch in github to go out from master branch we need to create main branch
 
 //commands
-git init
-git remote add origin <-link->
-git remote -v (to check/verify remote)
-git branch (to check on which branch we are)
-git branch -M main (to rename branch)
-git push origin main  //we can also use "git push -u origin main" by the help of this we can directly write "git push"
+=> git init
+=> git remote add origin <-link->
+=> git remote -v (to check/verify remote)
+=> git branch (to check on which branch we are)
+=> git branch -M main (to rename branch)
+=> git push origin main  //we can also use "git push -u origin main" by the help of this we can directly write "git push"
 
