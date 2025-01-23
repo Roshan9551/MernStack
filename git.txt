@@ -64,3 +64,8 @@ A. Through Command
   *merge
   => git merge branc_main
 B. Through Github
+=> click to compare & pull request
+=> Add message
+=> click create new pull request
+=> click merge pull request
+=> click confirm merge
