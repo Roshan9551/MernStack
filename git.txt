@@ -69,3 +69,6 @@ B. Through Github
 => click create new pull request
 => click merge pull request
 => click confirm merge
+
+
+#Also learn about merge conflict
