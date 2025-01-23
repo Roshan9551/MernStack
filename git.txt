@@ -42,4 +42,12 @@ Staus list: a. Untracked: (U)
 => git push origin main  //we can also use "git push -u origin main" by the help of this we can directly write "git push"
 
 
-##Merging branches
+##Branches
+1. Create branch
+=> git checkout -b branch_name
+2. Switch branch
+=> git checkout branch_name
+3. Deleting branch (for this we should not be on the branch which we want to delete)
+=>git branch -d branch_name
+4. Adding some changes(features) to a branch =>(to do this we should be on the branch on which we need to add feature)
+=>
